@@ -92,13 +92,13 @@ function questionClick(event) {
   currentQuestionIndex++;
 
   if (time <= 0 || currentQuestionIndex === questions.length) {
-    quizEnd();
+    endQuiz();
   } else {
     getQuestion();
   }
 }
 
-function quizEnd() {
+function endQuiz() {
   clearInterval(timerId);
 
   var endScreenEl = document.getElementById('end-screen');
@@ -115,7 +115,7 @@ function countDwn() {
   timerEl.textContent = time;
 
   if (time <= 0) {
-    quizEnd();
+    endQuiz();
   }
 }
 
