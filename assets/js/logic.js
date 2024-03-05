@@ -11,8 +11,8 @@ var initialsEl = document.getElementById('initials');
 var feedbackEl = document.getElementById('feedback');
 
 
-var sfxRight = new Audio('/asssets/sfx/right.wav');
-var sfxWrong = new Audio('/assets/sfx/wrong.wav');
+var sfxRight = new Audio('assets/sfx/right.wav');
+var sfxWrong = new Audio('assets/sfx/wrong.wav');
 
 function startQuiz() {
   
