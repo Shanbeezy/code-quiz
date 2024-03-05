@@ -1,13 +1,13 @@
 var questions = [
     {
-        title: 'What tag is required in all HTML documents, and is used to define the title?' ,
-        choices:['<head></head>', '<br><br/>', '<body><body/>', '<title><title/>'] ,
-        answer: '<head></head>' ,
+        title: 'What is the default behavior called that is used to move declarations to the top of the current scope?' ,
+        choices:['Hoisting', 'Sorting', 'Arranging', 'Jumping'] ,
+        answer: 'Hoisting' ,
     },
     {
-        title: 'What tag is used to render or transform text into an important (bold) version?' ,
-        choices:['blockquote>', '<a>', '<strong>', '<em>'] ,
-        answer: '<strong>' ,
+        title: 'Where is the JavaScript placed inside an HTML document or page?' ,
+        choices:['In the <body> and <head> sections.', 'In the <meta> section', 'In the <title> section.', 'In the <footer> section.'] ,
+        answer: 'In the <body> and <head> sections.' ,
     },
     {
         title: 'In JavaScript, what element is used to store and manipulate text, usually in multiples?' ,
@@ -20,24 +20,24 @@ var questions = [
         answer: 'JavaScript' ,
     },
     {
-        title: 'What tag is used to specify a section of text that provides an example of computer code?' ,
-        choices:['<embed>', '<!DOCTYPE>', '<code>', '<caption>'] ,
-        answer: '<!DOCTYPE>' ,
+        title: 'What is the type of loop that continues through a block of code as long as the specified condition remains TRUE?' ,
+        choices:['Conditional Loop', 'While Loop', 'For Loop', 'Else Loop'] ,
+        answer: 'While Loop' ,
     },
     {
-        title: 'What is the name of the stylesheet that defines the presentation of an HTML or XML document?' ,
-        choices:['Java', 'CSS', 'PHP', 'jQuery'] ,
-        answer: 'CSS' ,
+        title: 'What elements are used to test for TRUE or False values stored in variables?' ,
+        choices:['Trigger readers', 'RegExp or Regular Expressions', 'Comparison and Logical operators', 'Conditonal statements'] ,
+        answer: 'Comparison and Logical operators' ,
     },
     {
-        title: 'What tag is used to define an interactive field where users can enter data?' ,
-        choices:['<enterpoint>', '<dialog>', '<input>', '<datalist>'] ,
-        answer: '<input>' ,
+        title: 'What kind of statement is used to execute actions based on a trigger or condition?' ,
+        choices: ['RegExp or Regular Expression', 'Boolean Variable', 'Conditional Statement', 'Fired Event'] ,
+        answer: 'Conditional Statement' ,
     },
     {
-        title: 'What are the CSS properties that are used to add space around sections of content?' ,
-        choices:['Padding', 'Cleaner', 'Break', 'Spacing'] ,
-        answer: 'Padding' ,
+        title: 'JavaScript does NOT have this function built-in, which is commonly used to print or display data in other languages.' ,
+        choices:['Show', 'Speak', 'Display', 'Output'] ,
+        answer: 'Output' ,
     },
     {
         title: 'What is considered to be the most popular programming language in the world?' ,
